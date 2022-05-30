@@ -4,15 +4,11 @@ Erebus:
 
 
 ------ CREATOR ------: 
-Name: Stuart
-Email: 256598@student.calderdale.ac.uk
+Name: Stuart (illusion)
 
 
 
 ------ IMPORTANT ------:
-!the 'rich' package is required when using this engine!
-Type 'pip install rich' or 'pip install --user rich' into your console
-
 Game configs are .json extensions only.
 
 If you are placing a game config into the engine (manually moving / copying a file into the "ErebusEngine/config" file directory), remember to include a "start" stage (if you don't already have one) as this is the FIRST stage which is loaded on all game configs.

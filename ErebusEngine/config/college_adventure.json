@@ -60,7 +60,7 @@
         "messages": [
             "The Construction Stairs...#SLEEP\n\n",
             "Walking into the construction block you tell yourself that you can make it to class on time...#SLEEPn\n",
-			"You begin walking up the stairs...#SLEEP\n",
+	    "You begin walking up the stairs...#SLEEP\n",
             ".#SLEEP\n",
             ".#SLEEP\n",
             ".#SLEEP\n",
@@ -76,11 +76,11 @@
 	"corridorwalk": {
         "messages": [
             "You realise that you have completely forgotten what room you're supposed to be in...#SLEEP\n\n",
-			"Considering you don't have a lot of time you consider taking the risk...#SLEEP\n\n"
+	    "Considering you don't have a lot of time you consider taking the risk...#SLEEP\n\n"
         ],
         "decisions": [
             "Check your bag.$LOAD_CHECKBAG$\n",
-			"Trust your instinct.$LOAD_CORRIDOR2$\n\n",
+	    "Trust your instinct.$LOAD_CORRIDOR2$\n\n",
             "#NO_NUMBERType 'back' if you want to choose another path.\n",
             "#NO_NUMBERType 'exit' to quit.\n"
         ]
@@ -113,32 +113,32 @@
     "corridor2": {
         "messages": [
             "Student Serivces...#SLEEP\n\n",
-			"Walking into the student services block you notice the fresh snacks in the vending machine that are luring you in...#SLEEP\n",
-			"You have 5 minutes to spare... do you take the risk?#SLEEP\n\n"
+	    "Walking into the student services block you notice the fresh snacks in the vending machine that are luring you in...#SLEEP\n",
+	    "You have 5 minutes to spare... do you take the risk?#SLEEP\n\n"
         ],
         "decisions": [
             "Choose an item from the vending machine.$LOAD_VENDINGMACHINE$\n",
-			"Ignore the urge and continue walking.$LOAD_CORRIDOR4$\n\n",
-			"#NO_NUMBERType 'back' if you want to choose another path.\n",
+	    "Ignore the urge and continue walking.$LOAD_CORRIDOR4$\n\n",
+	    "#NO_NUMBERType 'back' if you want to choose another path.\n",
             "#NO_NUMBERType 'exit' to quit.\n"
         ]
     },
 	"vendingmachine": {
         "messages": [
             "Standing infront of the vending machine you really fancy a bag of skittles...#SLEEP\n\n",
-			"You take out your phone to ensure you have enough money...#SLEEP\n",
-			"#SLEEP",
-			"Surprisingly you do...#SLEEP\n",
-			"Entering the code for the skittles you patiently wait until further instructions are given...#SLEEP\n\n",
-			"You place your phone up against the card reader...#SLEEP\n\n",
-			".#SLEEP\n",
-			".#SLEEP\n",
-			".#SLEEP\n",
-			"'Your card has been declined.' shows on the screen as you quickly run away with embarrasment...#SLEEP\n\n"
+	    "You take out your phone to ensure you have enough money...#SLEEP\n",
+	    "#SLEEP",
+	    "Surprisingly you do...#SLEEP\n",
+	    "Entering the code for the skittles you patiently wait until further instructions are given...#SLEEP\n\n",
+	    "You place your phone up against the card reader...#SLEEP\n\n",
+	    ".#SLEEP\n",
+	    ".#SLEEP\n",
+	    ".#SLEEP\n",
+	    "'Your card has been declined.' shows on the screen as you quickly run away with embarrasment...#SLEEP\n\n"
         ],
         "decisions": [
             "Enter the Digihub.$LOAD_CORRIDOR4$\n\n",
-			"#NO_NUMBERType 'back' if you want to choose another path.\n",
+	    "#NO_NUMBERType 'back' if you want to choose another path.\n",
             "#NO_NUMBERType 'exit' to quit.\n"
         ]
     },
@@ -157,44 +157,44 @@
 	"corridor4": {
         "messages": [
             "The Digihub...#SLEEP\n\n",
-			"Upon entering the Digihub block you notice that there are 3 mintues left until lesson... but you forget what room you're supposed to be in...#SLEEP\n\n"
+	    "Upon entering the Digihub block you notice that there are 3 mintues left until lesson... but you forget what room you're supposed to be in...#SLEEP\n\n"
         ],
         "decisions": [
             "Go to DH02$LOAD_DH02$\n",
-			"Go to DH12$LOAD_CORRIDOR5$\n\n",
-			"#NO_NUMBERType 'back' if you want to choose another path.\n",
+	    "Go to DH12$LOAD_CORRIDOR5$\n\n",
+	    "#NO_NUMBERType 'back' if you want to choose another path.\n",
             "#NO_NUMBERType 'exit' to quit.\n"
         ]
     },
 	"corridor5": {
         "messages": [
             "Construction...#SLEEP\n\n",
-			"Opening the construction doors you can barely hear yourself think due to all the noise...#SLEEP\n\n",
-			"You hold the door open for another student and wait for them to pass by...#SLEEP\n",
-			".#SLEEP\n",
-			".#SLEEP\n",
-			".#SLEEP\n",
-			"They thank you and you continue on with your journey...#SLEEP\n\n"
+	    "Opening the construction doors you can barely hear yourself think due to all the noise...#SLEEP\n\n",
+	    "You hold the door open for another student and wait for them to pass by...#SLEEP\n",
+	    ".#SLEEP\n",
+	    ".#SLEEP\n",
+	    ".#SLEEP\n",
+	    "They thank you and you continue on with your journey...#SLEEP\n\n"
         ],
         "decisions": [
-			"Go to DH12$LOAD_STAIRS2$\n\n",
-			"#NO_NUMBERType 'back' if you want to choose another path.\n",
+	    "Go to DH12$LOAD_STAIRS2$\n\n",
+	    "#NO_NUMBERType 'back' if you want to choose another path.\n",
             "#NO_NUMBERType 'exit' to quit.\n"
         ]
     },
 	"corridor6": {
         "messages": [
             "The Top Floor of The Digihub...#SLEEP\n\n",
-			"Reaching the top of the stairs you wait a moment to catch your breath...#SLEEP\n\n",
-			"You take out your phone to check the time and notice that you are 2 minutes late...#SLEEP\n",
-			".#SLEEP\n",
-			".#SLEEP\n",
-			".#SLEEP\n",
-			"They thank you and you continue on with your journey...#SLEEP\n\n"
+	    "Reaching the top of the stairs you wait a moment to catch your breath...#SLEEP\n\n",
+	    "You take out your phone to check the time and notice that you are 2 minutes late...#SLEEP\n",
+	    ".#SLEEP\n",
+	    ".#SLEEP\n",
+	    ".#SLEEP\n",
+	    "They thank you and you continue on with your journey...#SLEEP\n\n"
         ],
         "decisions": [
-			"Go to DH12$LOAD_STAIRS2$\n\n",
-			"#NO_NUMBERType 'back' if you want to choose another path.\n",
+	    "Go to DH12$LOAD_STAIRS2$\n\n",
+	    "#NO_NUMBERType 'back' if you want to choose another path.\n",
             "#NO_NUMBERType 'exit' to quit.\n"
         ]
     },
@@ -202,12 +202,12 @@
         "messages": [
             "DH02...#SLEEP\n\n",
             "Entering DH02 you look around and recognise no one there...#SLEEP\n",
-			"'Now I remember what class I need to be in...' you say to yourself.#SLEEP\n",
+	    "'Now I remember what class I need to be in...' you say to yourself.#SLEEP\n",
             "You immediately walk straight back out and apologise to the tutor.#SLEEP\n\n"
         ],
         "decisions": [
             "Go to DH12.$LOAD_CORRIDOR5$\n",
-			"Give up and go home.$LOAD_ENDING3$\n\n",
+	    "Give up and go home.$LOAD_ENDING3$\n\n",
             "#NO_NUMBERType 'back' if you want to choose another path.\n",
             "#NO_NUMBERType 'exit' to quit.\n"
         ]
@@ -216,7 +216,7 @@
         "messages": [
             "DH12...#SLEEP\n\n",
             "Entering DH02 you look around and recognise no one there...#SLEEP\n",
-			"'Now I remember what class I need to be in...' you say to yourself.#SLEEP\n",
+	    "'Now I remember what class I need to be in...' you say to yourself.#SLEEP\n",
             "You immediately walk straight back out and apologise to the tutor.#SLEEP\n\n"
         ],
         "decisions": [
@@ -264,10 +264,10 @@
         "messages": [
             "After so many embarrasing moments you decide to call it a day...#SLEEP\n\n",
             "You message your progress coach telling them that you are very sick and are unable to get out of bed...#SLEEP\n",
-			".#SLEEP\n",
-			".#SLEEP\n",
-			".#SLEEP\n",
-			"Your progress coach messages you back laughing and tells you to come up with a better lie next time...#SLEEP\n\n"
+	    ".#SLEEP\n",
+	    ".#SLEEP\n",
+	    ".#SLEEP\n",
+	    "Your progress coach messages you back laughing and tells you to come up with a better lie next time...#SLEEP\n\n"
         ],
         "decisions": [
             "Start again.$LOAD_START$\n\n",

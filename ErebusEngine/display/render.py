@@ -68,19 +68,3 @@ class Render:
 		#print("Current stage: " + player.Player().get_current_stage() + "\n\n")
 		print("Available Options:\n\n")
 		console.Console().print_commands(decisionList)
-
-'''
-# pip3 install rich
-# doesn't work due to an 'OSError' (Permission denied)
-from rich import print
-from rich.panel import Panel
-
-# TODO
-class Render:
-    def __init__(self):
-        pass
-
-    def start_screen(self):
-        print(Panel("Testing", title="Tester"))
-        pass
-'''

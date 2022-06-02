@@ -1,5 +1,3 @@
-# ErebusEngine
-
 Erebus:
 "Primordial god of darkness."
 
